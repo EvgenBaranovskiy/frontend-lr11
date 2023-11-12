@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="jquery/jquery-ui.min.css">
+    <title>ЛР11 - jQuery. Синтаксис.</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="main-form">
+            <div id="card">
+                <div id="word">
+                    always
+                </div>
+            </div>
+            <div class="control-panel">
+                <div class="control-position-panel">
+                    <div id="move-left"><</div>
+                    <div id="current-pos">1/10</div>
+                    <div id="move-right">></div>
+                </div>
+                <div class="answer-panel">
+                    <input id="input-answer" type="text" placeholder="Введіть відповідь та натисніть Enter" />
+                </div>
+                <div class="statistics-panel">
+                    <table>
+                        <thead><span id="statistics-header">СТАТИСТИКА</span></thead>
+                        <tbody>
+                            <tr>
+                                <td id="correct-statistics-header">Вірно</td>
+                                <td id="incorrect-statistics-header">Не вірно</td>
+                                <td id="without-answers-header">Без відповіді</td>
+                            </tr>
+                            <tr>
+                                <td id="correct-statistics-value">0</td>
+                                <td id="incorrect-statistics-value">0</td>
+                                <td id="without-answers-statistics-value">10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="dialog" title="Перевірка завершена!">
+            <p>Ваш результат n вірних з N. Щоб повторити спробу, оновіть сторінку.</p>
+        </div>
+    </main>
+</body>
+</html>
