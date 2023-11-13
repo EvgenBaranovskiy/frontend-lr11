@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
             msg = "Ви великий молодець! " + msg;
         } else if (correctAnswers / cardsCount >= 0.8) {
             msg = "Ви молодець! Ще трішечки і буде ідеально! " + msg;
-        } else if (correctAnswers / cardsCount >= 0.5) {
+        } else if (correctAnswers / cardsCount > 0.5) {
             msg = "Більше половини! Вам ще є над чим попрацювати! " + msg;
         } else {
             msg = "Ой! А Ви точно знаєте англійську? " + msg;
