@@ -53,7 +53,6 @@ const words =
     length: 10,
 }
 
-
 document.addEventListener("DOMContentLoaded", () => {
     let isResultShown = false; //Прапорець чи був відображений результат
     let isInputEnabled = true; //Прапорець дозволу вводу
